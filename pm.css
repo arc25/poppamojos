@@ -1,0 +1,251 @@
+.bothmenus {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#menuimg {
+    border: solid black 2px;
+    display:inline-flex;
+    margin:15px;
+}
+#drinkmenu {
+ width:700px;
+ margin:25px;
+}
+body{
+    background-color: rgb(226, 255, 253);
+    
+}
+.carousel-item {
+    height:600px;   
+}
+.nav-item {
+  padding-top:20%;
+   
+}
+#menu {
+    color: rgb(0,4,44);
+    margin-right:5px;
+}
+#contact {
+    color: rgb(0,4,44);
+    margin-right:5px;
+}
+#collapseNavbar {
+   padding-right:5%;
+}
+#carouselFade {
+    margin-left: auto;
+    margin-right:auto;
+    width: 100%;
+    padding-top: 8%;
+}
+.carousel-inner img{
+    opacity: 0.85;
+}
+.overlay { 
+    color:#fff;
+    position:absolute;
+    z-index:12;
+    top:50%;
+    left:0;
+    width:100%;
+    text-align:center;
+  }
+  #textoverlay {
+    font-family: 'Bangers', cursive;
+    color: rgb(0, 4, 44);
+  }
+  #logo {
+      border-radius: 50%;
+     width:140px;
+      padding: 8px;
+      margin-left:250%;
+  }
+  #keyboard img{
+      width:100vw;
+      bottom:0;
+    height:75px;
+    padding-top:0;
+    
+  } 
+  #logoname .nav-item {
+    font-family: 'Bangers', cursive;
+    font-size: 1.6rem;
+    margin-left:0;
+    height: 150px;
+  }
+  #heading {
+    font-family: 'Bangers', cursive;
+    display:flex;
+    justify-content: center;
+    margin-top:4%;
+    padding-bottom: 1.5rem;
+  }
+  #hours {
+    display:flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    padding:15px;
+  }
+  #phone {
+    display:flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bolder;
+    margin-top:10px;
+  }
+  #map {
+    display:flex;
+    justify-content: center;
+    padding-bottom: 1.5rem;
+  }
+  #name {
+    font-family: 'Pacifico', cursive;
+      font-size: 3rem;
+      margin-right: 5rem;
+      padding-left: 0;
+      color:rgb(0, 4, 44); 
+  }
+  #logoname {
+      width:100%;
+  }
+
+  main {
+      min-height: 100vh;
+      margin-bottom:-175px;
+  }
+  .navbar {
+      padding-top:0;
+      padding-bottom:0;
+  }
+  #footer {
+      height:100px;
+      margin-top:10rem;
+      padding-bottom:0;
+      font-family: 'Bangers', cursive;
+      color: rgb(0, 4, 44);
+  }
+  #innertext {
+      font-size:5rem;
+      letter-spacing: .23em;
+      background-color: rgba(255, 174, 0, 0.562);
+  }
+  #facebook {
+      width:50px;
+      border-radius: 21%;
+      margin-left:20px;
+      
+  }
+  .navbar {
+         width: 100vw; 
+}
+  #insta {
+      width:50px;
+      border-radius:21%;
+      margin-bottom:30px;
+      margin-left:25px;
+  }
+  ::selection {
+    color:rgba(0, 8, 92, 0.829);
+    background:rgb(255, 198, 43);
+  }
+  @media (max-width:1500px) {
+      #innertext {
+          font-size:3.7rem;
+      }
+  }
+  @media (max-width:990px) {
+    #innertext {
+        font-size:2.5rem;
+        padding-left: 10px;
+        padding-right: 10px;
+      
+    }
+    .overlay  {
+        top:40%;
+    }
+   
+}
+  @media (max-width:1100px) {
+    #footer {
+        margin-top: 5rem;
+    }
+    .carousel-item {
+        height:500px;  
+        margin-bottom:0;
+        padding-bottom: 0; 
+    }
+  }
+  @media (max-width:800px) {
+      .overlay {
+          top:35%;
+      }
+      #innertext {
+          font-size: 2rem;
+      }
+      .carousel-item {
+          height: 400px;
+      }
+  }
+  @media (max-width:600px) {
+    .overlay {
+        top:25%;
+    }
+    #innertext {
+        font-size: 1.5rem;
+    }
+  #footer {
+      margin-top:1rem;
+  }
+}
+@media (max-width:450px) {
+    .overlay {
+        top:35%;
+    }
+    #innertext {
+        font-size: 1.5rem;
+    }
+  #footer {
+      margin-top:0;
+      margin-bottom:0;
+  }
+  .carousel-item {
+      height:300px;
+  }
+}
+@media (max-width:394px) {
+    .overlay {
+        top:45%;
+    }
+    #innertext {
+        font-size: 1.3rem;
+    }
+  #footer {
+      margin-top:0;
+      margin-bottom:0;
+  }
+  .carousel-item {
+      height:220px;
+  }
+}
+@media (max-width:335px) {
+    .overlay {
+        top:40%;
+    }
+    #innertext {
+        font-size: 1.3rem;
+    }
+  #footer {
+      margin-top:0;
+      margin-bottom:0;
+  }
+  #address {
+      font-size:15px !important;
+      width:50%;
+  }
+  .carousel-item {
+      height:220px;
+  }
+}
